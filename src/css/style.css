@@ -5,8 +5,8 @@
 	--clr-Grey-800: hsl(0, 0%, 12%);
 	--clr-Grey-900: hsl(0, 0%, 8%);
 
-	--font-size-1: 2.6rem;
-	--font-size-normal: 1.4rem;
+	--font-size-1: 2.7rem;
+	--font-size-normal: 1.6rem;
 }
 
 *,
@@ -46,7 +46,7 @@ a {
 	display: grid;
 	font-size: var(--font-size-normal);
 	gap: 2rem;
-	max-width: 384px;
+	max-width: 38.4rem;
 	padding: 2.8rem;
 	text-align: center;
 	width: 90vw;
@@ -62,14 +62,17 @@ a {
 	.card__header {
 		margin-top: 1.6rem;
 
-		h1 {
+		.card__title {
 			font-size: var(--font-size-1);
 		}
 
-		h2 {
+		.card__subtitle {
 			font-size: var(--font-size-normal);
-			color: var(--clr-Green);
 			margin-top: 0.6rem;
+
+			&.card__subtitle--green {
+				color: var(--clr-Green);
+			}
 		}
 
 		p {
@@ -84,7 +87,7 @@ a {
 
 	.card__links {
 		display: grid;
-		gap: 1.6rem;
+		gap: 1rem;
 		cursor: pointer;
 
 		.card__link {
