@@ -25,7 +25,7 @@ This is a solution to the [Recipe page](https://www.frontendmentor.io/challenges
 
 - Solution URL: [GITHUB](https://github.com/IGOXU/social-links-profile)
 
-- URL: [Live Site URL]()
+- URL: [Live Site URL](https://social-links-profile-practice.netlify.app/)
 
 ## My process
 
